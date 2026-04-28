@@ -121,3 +121,12 @@ curl -X DELETE http://localhost:8080/produtos/1
 ```bash
 docker stats --no-stream
 ```
+
+### Listar produtos fora da VM
+```
+GET /produtos
+```
+
+```bash
+curl http://163.176.225.114:8080/produtos
+```
