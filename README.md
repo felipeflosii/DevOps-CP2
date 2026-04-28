@@ -7,6 +7,15 @@ API REST leve em Go conectada ao MySQL, rodando em Docker.
 - Docker
 - Docker Network `flosi-rede` criada
 
+## Listar produtos fora da VM
+```
+GET /produtos
+```
+
+```bash
+curl http://163.176.225.114:8080/produtos
+```
+
 ## Como rodar
 
 ### 1. Criar a rede
